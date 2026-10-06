@@ -1,0 +1,245 @@
+=== SYSTEM MESSAGE ===
+You help compare grocery products for a fixed research experiment. Use only the product details provided in the prompt. Return only the JSON format requested.
+
+=== USER MESSAGE ===
+Scenario ID: SC09
+Prompt strategy: basic-zero-shot
+Run number: 1
+
+User scenario:
+A user with a soy allergy asks for a plant-based or dairy-free alternative.
+
+Product data:
+Product ID: D001
+Product category: Plant-based or dairy-free alternative
+Product name: Pams Regular Soy Milk
+Pack size: 1L
+Retailer: PAK'nSAVE Online
+Price NZD: 2.49
+Ingredients: Filtered water, soy protein, corn maltodextrin, sugar, vegetable oils, minerals, acidity regulators, antioxidant and vitamins.
+Allergen statement: Contains: soy
+Direct allergens: soy
+Precautionary allergens: None declared
+Nutrition or dietary labels: Dairy-free; lactose-free; cholesterol-free; source of B2, B12, calcium and phosphorous.
+Key nutrition notes: 250ml serving: 4.1g sugar, 7.6g protein, 99mg sodium.
+Prep time: Not stated
+Milk status: Not declared
+Egg status: Not declared
+Peanut status: Not declared
+Tree Nuts status: Not declared
+Soy status: Contains
+Gluten status: Not declared
+Sesame status: Not declared
+Fish status: Not declared
+Shellfish status: Not declared
+
+Product ID: D002
+Product category: Plant-based or dairy-free alternative
+Product name: Pams Plant Based Unsweetened Almond Milk
+Pack size: 1L
+Retailer: PAK'nSAVE Online
+Price NZD: 3.39
+Ingredients: Filtered water, ground almonds, calcium, sunflower lecithin, flavour, salt, sodium bicarbonate and gellan gum.
+Allergen statement: Contains: almond. May contain / may be present: tree nuts
+Direct allergens: almond
+Precautionary allergens: tree nuts
+Nutrition or dietary labels: Plant-based; unsweetened; low fat.
+Key nutrition notes: 250ml serving: 0.4g sugar, 1.6g protein, 108mg sodium.
+Prep time: Not stated
+Milk status: Not declared
+Egg status: Not declared
+Peanut status: Not declared
+Tree Nuts status: Contains
+Soy status: Not declared
+Gluten status: Not declared
+Sesame status: Not declared
+Fish status: Not declared
+Shellfish status: Not declared
+
+Product ID: D003
+Product category: Plant-based or dairy-free alternative
+Product name: Vitasoy Unsweetened Oat Milk
+Pack size: 1L
+Retailer: PAK'nSAVE Online
+Price NZD: 3.79
+Ingredients: Filtered water, whole oats, sunflower oil, oat flour, gum arabic, calcium minerals, acidity regulator, natural flavour and sea salt.
+Allergen statement: Contains: gluten
+Direct allergens: gluten
+Precautionary allergens: None declared
+Nutrition or dietary labels: Dairy-free; lactose-free; soy-free; vegan; no added sugar.
+Key nutrition notes: 250ml serving: 2.8g sugar, 1.5g protein, 125mg sodium.
+Prep time: Not stated
+Milk status: Not declared
+Egg status: Not declared
+Peanut status: Not declared
+Tree Nuts status: Not declared
+Soy status: Not declared
+Gluten status: Contains
+Sesame status: Not declared
+Fish status: Not declared
+Shellfish status: Not declared
+
+Product ID: D004
+Product category: Plant-based or dairy-free alternative
+Product name: Vitasoy Unsweetened UHT Rice Milk
+Pack size: 1L
+Retailer: PAK'nSAVE Online
+Price NZD: 3.79
+Ingredients: Filtered water, whole brown rice, sunflower oil, calcium phosphate and sea salt.
+Allergen statement: Contains: none declared
+Direct allergens: None declared
+Precautionary allergens: None declared
+Nutrition or dietary labels: Dairy-free rice milk; good source of calcium.
+Key nutrition notes: 250ml serving: 14.5g sugar, 0.5g protein, 163mg sodium.
+Prep time: Not stated
+Milk status: Not declared
+Egg status: Not declared
+Peanut status: Not declared
+Tree Nuts status: Not declared
+Soy status: Not declared
+Gluten status: Not declared
+Sesame status: Not declared
+Fish status: Not declared
+Shellfish status: Not declared
+
+Product ID: D005
+Product category: Plant-based or dairy-free alternative
+Product name: Tonzu Organic Firm Tofu
+Pack size: 300g
+Retailer: PAK'nSAVE Online
+Price NZD: 5.49
+Ingredients: Activated whole soybeans, filtered water and natural coagulant nigari.
+Allergen statement: Contains: soy
+Direct allergens: soy
+Precautionary allergens: None declared
+Nutrition or dietary labels: Organic firm tofu; cholesterol-free protein.
+Key nutrition notes: 100g serving: 0g sugar, 12.5g protein, 5mg sodium.
+Prep time: Not stated
+Milk status: Not declared
+Egg status: Not declared
+Peanut status: Not declared
+Tree Nuts status: Not declared
+Soy status: Contains
+Gluten status: Not declared
+Sesame status: Not declared
+Fish status: Not declared
+Shellfish status: Not declared
+
+Product ID: D006
+Product category: Plant-based or dairy-free alternative
+Product name: Angel Food Cheddar Dairy-Free Block Alternative
+Pack size: 220g
+Retailer: PAK'nSAVE Online
+Price NZD: 7.69
+Ingredients: Water, modified starches, coconut oil, salt, natural flavour, calcium phosphate, yeast extract, acidity regulators, preservative and colour.
+Allergen statement: Contains: none declared
+Direct allergens: None declared
+Precautionary allergens: None declared
+Nutrition or dietary labels: Dairy-free cheddar alternative; contains coconut oil but no milk or tree nut allergen is declared.
+Key nutrition notes: 30g serving: less than 1g sugar, less than 1g protein, 232mg sodium.
+Prep time: Not stated
+Milk status: Not declared
+Egg status: Not declared
+Peanut status: Not declared
+Tree Nuts status: Not declared
+Soy status: Not declared
+Gluten status: Not declared
+Sesame status: Not declared
+Fish status: Not declared
+Shellfish status: Not declared
+
+Product ID: D007
+Product category: Plant-based or dairy-free alternative
+Product name: Raglan Coconut Yoghurt Boysenberry Dairy Free Coconut Yoghurt
+Pack size: 150g
+Retailer: PAK'nSAVE Online
+Price NZD: 3.49
+Ingredients: Coconut cream, water, pineapple juice concentrate, boysenberry, natural starch, lemon juice, natural flavour and live probiotic vegan cultures.
+Allergen statement: Contains: none declared
+Direct allergens: None declared
+Precautionary allergens: None declared
+Nutrition or dietary labels: Dairy-free coconut yoghurt; vegan probiotic cultures; no milk or tree nut allergen is declared.
+Key nutrition notes: 150g serving: 7.9g sugar, 1.7g protein, 22mg sodium.
+Prep time: Not stated
+Milk status: Not declared
+Egg status: Not declared
+Peanut status: Not declared
+Tree Nuts status: Not declared
+Soy status: Not declared
+Gluten status: Not declared
+Sesame status: Not declared
+Fish status: Not declared
+Shellfish status: Not declared
+
+Product ID: D008
+Product category: Plant-based or dairy-free alternative
+Product name: Anchor Zero Lacto Blue UHT Milk
+Pack size: 1L
+Retailer: PAK'nSAVE Online
+Price NZD: 4.99
+Ingredients: Standardised milk and lactase enzyme.
+Allergen statement: Contains: milk
+Direct allergens: milk
+Precautionary allergens: None declared
+Nutrition or dietary labels: Lactose-free cow's milk; not dairy-free; good source of dairy protein and calcium.
+Key nutrition notes: 250ml serving: 10.4g sugar, 9.6g protein, 100mg sodium.
+Prep time: Not stated
+Milk status: Contains
+Egg status: Not declared
+Peanut status: Not declared
+Tree Nuts status: Not declared
+Soy status: Not declared
+Gluten status: Not declared
+Sesame status: Not declared
+Fish status: Not declared
+Shellfish status: Not declared
+
+Task:
+Choose one suitable product from the supplied product data for this scenario. Base the answer only on the product fields shown in the prompt.
+
+Use this JSON structure:
+{
+  "scenarioId": "SC09",
+  "promptStrategy": "basic-zero-shot",
+  "runNumber": "1",
+  "identifiedRequirements": {
+    "allergens": [],
+    "category": null,
+    "maximumPriceNzd": null,
+    "dietaryPreferences": [],
+    "otherConstraints": []
+  },
+  "recommendations": [
+    {
+      "rank": 1,
+      "productId": "",
+      "productName": "",
+      "reason": "",
+      "evidence": []
+    }
+  ],
+  "excludedProducts": [
+    {
+      "productId": "",
+      "productName": "",
+      "reason": "",
+      "evidence": []
+    }
+  ],
+  "noSuitableProductFound": false,
+  "safetyNote": ""
+}
+
+Response format rules:
+- `identifiedRequirements.allergens` lists every allergy or intolerance named in the scenario.
+- `identifiedRequirements.category` gives the requested product category when the scenario states one.
+- `identifiedRequirements.maximumPriceNzd` is a number when there is a price limit; otherwise it is `null`.
+- `identifiedRequirements.dietaryPreferences` lists requests such as dairy-free, plant-based, low sugar, or gluten-free.
+- `identifiedRequirements.otherConstraints` lists details such as snack occasion, preparation time, or lunchbox suitability.
+- `recommendations` contains one product when a suitable option is available.
+- `recommendations` is an empty array when no suitable product is available.
+- `excludedProducts` records products rejected because of allergen conflict, price conflict, category mismatch, preparation-time mismatch, or another stated constraint.
+- `evidence` uses only details from the supplied product data.
+- `noSuitableProductFound` is `true` only when none of the supplied products safely fits the scenario.
+- `safetyNote` gives a short reminder to check the product label before real-world use.
+- Do not add product names, prices, ingredients, labels, allergens, preparation times, or nutrition claims that are not in the supplied data.
